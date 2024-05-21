@@ -1,0 +1,36 @@
+.body{
+    background-color: red;
+}
+.home-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .blood-container {
+    width: 75%;
+    margin: 10px;
+    color:black;
+    border: 1px solid #ccc; /* Border color */
+    background-color: white; /* Background color */
+    border-radius: 20px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card img {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+  }
+  
